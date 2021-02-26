@@ -5,11 +5,10 @@ function writeCards(names, event) {
   return names;
 }
 
-function countDown(number) {
-  while (number >= 0) {
-    console.log(number--);
-  }
-}
+// function countDown(number) {
+//   while (number >= 0) {
+//     console.log(number--);
+//   }
+// }
 
-writeCards(["Lisa", "Brendan", "Ali"], "birthday"); 
-countDown(5);
+const countDown = number => {while (number >= 0) {console.log(number--)}}
